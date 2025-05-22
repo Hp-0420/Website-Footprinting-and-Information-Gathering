@@ -135,9 +135,6 @@ Contributions, suggestions, and improvements are welcome! Feel free to fork the 
 This project is licensed under the MIT License.
 
 ````
-
----
-
 ### 🛠 Sample Python Script Snippets (Mini Example)
 
 **whois_lookup.py**
@@ -176,4 +173,3 @@ def bruteforce_dirs(domain, wordlist):
         if r.status_code == 200:
             found.append(url)
     return found
-``
